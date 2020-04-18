@@ -19,6 +19,7 @@ $ sudo docker-compose exec samba bash
 deny guests or restrict user
 
 ```conf
+# smb.conf
 [share]
    path = /share
    writable = yes
@@ -35,5 +36,6 @@ deny guests or restrict user
 allow connect from any hosts
 
 ```conf
+# smb.conf
 hosts allow = ANY
 ```
