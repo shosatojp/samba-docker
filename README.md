@@ -1,5 +1,7 @@
 # Samba Docker
 
+![](https://github.com/shosatojp/samba-docker/workflows/Docker%20Image%20CI/badge.svg)
+
 # Usage
 
 **allow guests and connect from lan**
