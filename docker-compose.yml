@@ -1,0 +1,13 @@
+version: '2'
+services:
+  samba:
+    build: .
+    restart: always
+    ports:
+      - 137:137
+      - 138:138
+      - 139:139
+      - 445:445
+    volumes:
+      - ./share:/share
+
